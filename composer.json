@@ -4,18 +4,10 @@
   "homepage": "https://github.com/preeti3081/helloworld",
   "type": "library",
   "license": "MIT",
-  "scripts": {
-    "post-install-cmd": [
-      "DemoPackage\\Demo::postInstall"
-    ],
-    "post-create-project-cmd": [
-      "DemoPackage\\Demo::postCreateProject",
-      "DemoPackage\\Demo::postInstall"
-    ]
-  },
+
   "autoload": {
     "psr-4": {
-      "DemoPackage\\": "src/"
+      "demoPackage\\": "src/"
     }
   },
   "require": {
